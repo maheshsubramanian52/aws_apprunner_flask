@@ -1,0 +1,14 @@
+name: GITHUB Actions
+on:
+  push:
+    branches:
+      - qa
+
+jobs:
+  my_testing:
+    runs_on: [ubuntu:latest]
+     
+    steps:
+      - name: Print Nice message from testing
+        run : echo "Hello World"
+         
