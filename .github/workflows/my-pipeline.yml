@@ -5,8 +5,8 @@ on:
       - qa
 
 jobs:
-  my_testing:
-    runs_on: [ubuntu:latest]
+  mytesting:
+    runs-on: [ubuntu:latest]
      
     steps:
       - name: Print Nice message from testing
