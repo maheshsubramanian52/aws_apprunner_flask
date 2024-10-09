@@ -2,7 +2,7 @@ name: GITHUB Actions
 on:
   push:
     branches:
-      - qa
+      - master
 
 jobs:
   mytesting:
