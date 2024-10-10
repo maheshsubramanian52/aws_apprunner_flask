@@ -19,7 +19,7 @@ def hellopage():
     HELLO_MESSAGE = "Hello to: <b>" + NAME_F + " " + NAME_L + "</b> :)"
     return HELLO_MESSAGE
 
-#--------Main------------------
+##--------Main------------------
 if __name__ == "__main__":
     application.run(host="0.0.0.0", port=8080)
-#------------------------------
+##------------------------------
