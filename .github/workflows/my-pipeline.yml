@@ -12,4 +12,12 @@ jobs:
     steps:
       - name: Print Nice message from testing
         run : echo "Hello World"
+
+  mydeploy:
+    runs-on: [ubuntu-latest]
+    needs: [mytesting]
+     
+    steps:
+      - name: Print Nice message from deploy
+        run : echo "Hello India"
          
